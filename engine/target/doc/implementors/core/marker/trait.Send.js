@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["engine"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.57.0/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a> for <a class=\"struct\" href=\"engine/sandbox_app/struct.Sandbox.html\" title=\"struct engine::sandbox_app::Sandbox\">Sandbox</a>","synthetic":true,"types":["engine::sandbox_app::Sandbox"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

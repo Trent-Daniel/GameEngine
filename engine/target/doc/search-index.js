@@ -1,0 +1,4 @@
+var searchIndex = JSON.parse('{\
+"engine":{"doc":"","t":[8,0,5,0,8,0,10,5,8,11,11,3,11,11,11,11,11,11,11,11],"n":["Application","engine","main","sandbox_app","CreateApplication","application","create_application","print","Application","run","run","Sandbox","borrow","borrow_mut","create_application","from","into","try_from","try_into","type_id"],"q":["engine","","","","engine::engine","","","","engine::engine::application","","","engine::sandbox_app","","","","","","","",""],"d":["","","","","","","","","","","","","","","","","","","",""],"i":[0,0,0,0,0,0,1,0,0,2,2,0,3,3,3,3,3,3,3,3],"f":[null,null,[[]],null,null,null,[[]],[[]],null,[[]],[[]],null,[[]],[[]],[[]],[[]],[[]],[[],["result",4]],[[],["result",4]],[[],["typeid",3]]],"p":[[8,"CreateApplication"],[8,"Application"],[3,"Sandbox"]]}\
+}');
+if (window.initSearch) {window.initSearch(searchIndex)};
