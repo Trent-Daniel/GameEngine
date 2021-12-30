@@ -1,3 +1,0 @@
-(function() {var implementors = {};
-implementors["engine"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.57.0/core/panic/unwind_safe/trait.UnwindSafe.html\" title=\"trait core::panic::unwind_safe::UnwindSafe\">UnwindSafe</a> for <a class=\"struct\" href=\"engine/sandbox_app/struct.Sandbox.html\" title=\"struct engine::sandbox_app::Sandbox\">Sandbox</a>","synthetic":true,"types":["engine::sandbox_app::Sandbox"]}];
-if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

@@ -1,1 +1,0 @@
-initSidebarItems({"fn":[["print",""]],"mod":[["application",""]],"trait":[["CreateApplication",""]]});
