@@ -58,4 +58,4 @@ pub type WNDPROC = Option<
 pub type c_int = i32;
 pub type c_uint = u32;
 pub type UINT = c_uint;
-
+pub type COLORREF = DWORD;

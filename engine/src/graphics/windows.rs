@@ -105,7 +105,18 @@ fn window_procedure(hWnd: HWND,
         {
             let mut ps = PAINTSTRUCT::default();
             let hdc = BeginPaint(hWnd, &mut ps);
-            let success = FillRect(hdc, &ps.rcPaint, (COLOR_WINDOW + 1) as HBRUSH);
+            // Without the following lines, this code block will paint the entire background of the
+            // window;
+            // If the following lines are included, this code block will paint only a portion of
+            // the window, based on the dimensions given.
+            //
+            //ps.rcPaint.left = 100;
+            //ps.rcPaint.top = 100;
+            //ps.rcPaint.right = 200;
+            //ps.rcPaint.bottom = 200;
+            let hbrush: HBRUSH = CreateSolidBrush(0x00_00_00_00);
+            let success = FillRect(hdc, &ps.rcPaint, hbrush);
+            //let success = FillRect(hdc, &ps.rcPaint, (COLOR_WINDOW + 1) as HBRUSH);
             println!("success is {:?}", success);
             EndPaint(hWnd, &ps);
         }

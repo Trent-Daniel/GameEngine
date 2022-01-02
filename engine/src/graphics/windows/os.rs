@@ -70,3 +70,11 @@ extern "system"
                     ) -> BOOL;
 
 }
+
+#[link(name = "Gdi32")]
+extern "system"
+{
+    ///https://docs.microsoft.com/en-us/windows/win32/api/wingdi/nf-wingdi-createsolidbrush
+    pub fn CreateSolidBrush(color: COLORREF) -> HBRUSH;
+
+}
